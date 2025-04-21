@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val coffeeList = listOf(
-            Coffee("Colombian Brew", "Rich and full-bodied.", 4.5f, R.drawable.coffee1),
-            Coffee("Italian Espresso", "Intense and aromatic.", 5.0f, R.drawable.coffee2),
-            Coffee("Classic Latte", "Smooth and creamy.", 4.8f, R.drawable.coffee3),
-            Coffee("Iced Coffee", "Chilled and refreshing.", 4.2f, R.drawable.coffee4)
+            Coffee("Colombian Brew", "Rich and full-bodied.", 4.5f, R.drawable.capuchino),
+            Coffee("Italian Espresso", "Intense and aromatic.", 5.0f, R.drawable.latte),
+            Coffee("Classic Latte", "Smooth and creamy.", 4.8f, R.drawable.espresso),
+            Coffee("Iced Coffee", "Chilled and refreshing.", 4.2f, R.drawable.macchiato)
         )
 
         val adapter = CoffeeAdapter(coffeeList)
